@@ -12,6 +12,9 @@ export default {
 
 </script>
 
-<style lang="scss">
-    
+<style lang="scss" scoped>
+    header {
+        border: 3px solid orangered;
+        height: 200px;
+    }
 </style>

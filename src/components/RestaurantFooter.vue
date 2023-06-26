@@ -12,6 +12,9 @@ export default {
 
 </script>
 
-<style lang="scss">
-    
+<style lang="scss" scoped>
+    footer{
+        border: 3px solid green;
+        height: 400px;
+    }
 </style>
