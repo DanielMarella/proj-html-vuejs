@@ -77,6 +77,15 @@
                 </div>
             </div>
         </div>
+
+        <!-- FIFTH COMPONENT -->
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <h1>SFONDO</h1>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -112,6 +121,11 @@ export default {
 
         .col-8{
             border: 2px solid fuchsia;
+        }
+
+        .col-12{
+            border: 2px solid red;
+            height: 500px;
         }
         
         
