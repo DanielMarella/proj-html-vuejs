@@ -86,6 +86,39 @@
                 </div>
             </div>
         </div>
+
+        <!--SIXTH COMPONENT -->
+        <div class="container">
+            <div class="row ">
+                <div class="col-4">
+                    <h1>IMMAGINE</h1>
+                    <h1>TITOLTO</h1>
+                    <h1>TESTO</h1>
+                </div>
+                <div class="col-4">
+                    <h1>IMMAGINE</h1>
+                    <h1>TITOLTO</h1>
+                    <h1>TESTO</h1>
+                </div>
+                <div class="col-4">
+                    <h1>IMMAGINE</h1>
+                    <h1>TITOLTO</h1>
+                    <h1>TESTO</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEVENTH COMPONENT -->
+        <div class="container ">
+            <div class="row">
+                <div class="col-8">
+                    <h1>IMMAGINE</h1>
+                </div>
+                <div class="col-4">
+                    <h1>TESTO</h1>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
