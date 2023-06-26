@@ -119,6 +119,39 @@
                 </div>
             </div>
         </div>
+
+        <!-- HEIGHT COMPONENT -->
+        <div class="container">
+            <div class="row ">
+                <div class="col-4 mt-5">
+                    <h1>IMMAGINE</h1>
+                    <h1>TITOLTO</h1>
+                    <h1>TESTO</h1>
+                </div>
+                <div class="col-4">
+                    <h1>IMMAGINE</h1>
+                    <h1>TITOLTO</h1>
+                    <h1>TESTO</h1>
+                </div>
+                <div class="col-4 mt-5">
+                    <h1>IMMAGINE</h1>
+                    <h1>TITOLTO</h1>
+                    <h1>TESTO</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- NINTH COMPONENT -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4 m-5">
+                    <h1>TITOLO</h1>
+                    <h1>LINE BRAKET</h1>
+                    <h1>TESTO</h1>
+                    <h1>BUTTON</h1>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -139,7 +172,7 @@ export default {
         }
         .col-4{
             border: 2px solid red;
-            height: 500px;
+            height: 700px;
         }
 
         .col-5{
@@ -157,11 +190,15 @@ export default {
         }
 
         .col-12{
-            border: 2px solid red;
+            border: 2px solid fuchsia;
             height: 500px;
         }
         
         
+    }
+
+    .row{
+        border: 3px solid cyan;
     }
     
             .my_width-r{
