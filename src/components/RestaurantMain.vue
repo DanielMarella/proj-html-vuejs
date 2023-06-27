@@ -17,7 +17,7 @@
         </div>
 
         <!-- SECOND COMPONENT -->
-        <div class="container">
+        <div class="container mb-5">
             <div class="row height mb-5">
                 <div class="col-6">
                     <p>
@@ -72,16 +72,20 @@
         </div>
 
         <!-- THIRD COMPONENT -->
-        <div class="container-fluid mb-5 ">
+        <div class="container-fluid mb-5">
             <div class="row">
                 <div class="col-8 slider32">
                 </div>
                 <div class="col-4 black t-white">
-                    <h1>the best table in the town</h1>
-                    <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla.</p>
-                    <button class="button black t-white">
-                        explore the menu
-                    </button>
+                    <div class="container w-75 text-start my_margin" >
+                        <h1 class="w-75 mb-5">the best table in town</h1>
+                        <p class="w-50 mb-4">
+                            Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla.
+                        </p>
+                        <button class="button black t-white">
+                            explore the menu
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,10 +144,10 @@
         </div>
 
         <!-- FIFTH COMPONENT -->
-        <div class="container-fluid my-5">
-            <div class="row height">
-                <div class="col divider d-flex align-items-end justify-content-center t-white pb-3">
-                    <h4>kung pao chicken - $32</h4>
+        <div class="container-fluid divider my-5 p-5">
+            <div class="row mt-5 p-5">
+                <div class="col mt-5 pt-5 d-flex align-items-end justify-content-center t-white pb-3">
+                    <h4 class="mt-5 pt-5">kung pao chicken - $32</h4>
                 </div>
             </div>
         </div>
