@@ -3,10 +3,14 @@
         <!-- FIRST COMPONENT -->
         <div class="container ">
             <div class="row">
-                <div class="col-4">
-                    <h1>TESTO</h1>
+                <div class="col-5">
+                    <h1 class='my_fs'>fine dining experience</h1>
+                    <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+                    <button>
+                        buy avada today
+                    </button>
                 </div>
-                <div class="col-8">
+                <div class="col-7">
                     <h1>IMMAGINE</h1>
                 </div>
             </div>
@@ -66,12 +70,12 @@
                     <h1>TESTO</h1>
                 </div>
             </div>
-            <div class="row ">
-                <div class="col-6  my_width-r">
+            <div class="row d-flex justify-content-between ">
+                <div class="col-5">
                     <h1>TESTO</h1>
                     <H1>BUTTON</H1>
                 </div>
-                <div class="col-6 my_width-l">
+                <div class="col-5">
                     <h1>TESTO</h1>
                     <H1>BUTTON</H1>
                 </div>
@@ -200,14 +204,11 @@ export default {
     .row{
         border: 3px solid cyan;
     }
-    
-            .my_width-r{
-                width: calc(50% - 20px);
-                margin-right: 20px;
-            }
 
-            .my_width-l{
-            width: calc(50% - 20px);
-            margin-left: 20px;
+
+
+    .my_fs{
+        font-size: 90px;
+        text-transform: uppercase;  
         }
 </style>
