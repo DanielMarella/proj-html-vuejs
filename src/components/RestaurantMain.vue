@@ -83,9 +83,9 @@
         </div>
 
         <!-- FIFTH COMPONENT -->
-        <div class="container ">
+        <div class="container-fluid my-5">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 divider">
                     <h1>SFONDO</h1>
                 </div>
             </div>
@@ -173,6 +173,7 @@ export default {
 
         .container{
             padding: 20px 0;
+            margin: 80px auto;
         }
         .col-4{
             border: 2px solid red;
@@ -195,7 +196,7 @@ export default {
 
         .col-12{
             border: 2px solid fuchsia;
-            height: 500px;
+            height: 800px;
         }
         
         
@@ -205,10 +206,15 @@ export default {
         border: 3px solid cyan;
     }
 
-
+    .divider{
+        background-image: url(../assets/img/page52x.jpg);
+        background-position: top;
+        scale: 1.2;
+    }
 
     .my_fs{
         font-size: 90px;
         text-transform: uppercase;  
         }
+
 </style>
