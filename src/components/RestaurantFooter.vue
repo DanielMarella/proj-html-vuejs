@@ -1,7 +1,11 @@
 <template>
     <footer>
         <div class="container-fluid">
-            <h3>FOOTER</h3>
+            <div class="row">
+                <div class="col my-height">
+                    <img src="../assets/img/footer2x.jpg" alt="">
+                </div>
+            </div>
         </div>
     </footer>
 </template>
@@ -16,11 +20,22 @@ export default {
 
 <style lang="scss" scoped>
     footer{
-        border: 3px solid green;
-        height: 800px;
-        background-image: url(../assets/img/footer2x.jpg);
-        background-position: center;
 
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .col{
+            margin: 0;
+        }
     }
+
+    .my-height{
+        height: 500px;
+        padding: 0;
+    }
+
 </style>
 
