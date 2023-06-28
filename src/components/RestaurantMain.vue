@@ -84,7 +84,7 @@ export default {
         }
 
     .my_fs{
-        font-size: 90px;
+        font-size: 4rem;
         text-transform: uppercase;  
     }
 
