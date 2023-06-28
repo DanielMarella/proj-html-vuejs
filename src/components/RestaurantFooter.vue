@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col my-height">
-                    <img src="../assets/img/footer2x.jpg" alt="">
+                    <img src="/img/footer2x.jpg" alt="">
                 </div>
             </div>
         </div>
