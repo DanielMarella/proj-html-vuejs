@@ -1,20 +1,22 @@
 <template>
-    <header>
-        <h1>HEADER</h1>
+    <header >
+        <WrapperRestaurnt />
     </header>
 </template>
 
 <script>
+import WrapperRestaurnt from './WrapperRestaurnt.vue';
 
 export default {
-    name : 'RestaurantHeader'
+
+    name: "RestaurantHeader",
+    components: {
+        WrapperRestaurnt 
+    }
 }
 
 </script>
 
-<style lang="scss" scoped>
-    header {
-        border: 3px solid orangered;
-        height: 200px;
-    }
+<style lang="scss" >
+
 </style>
