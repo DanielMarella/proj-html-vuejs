@@ -19,19 +19,19 @@
     </div>
     <div class="row text-center mb-5">
         <div class="col">
-            <h4>the best coffe in town</h4>
+            <h2>the best coffe in town</h2>
             <p>
                 By admin | January 7th, 2020|Categories: News
             </p>
         </div>
         <div class="col">
-            <h4>discover our new menu</h4>
+            <h2>discover our new menu</h2>
             <p>
                 By admin | January 7th, 2020|Categories: News
             </p>
         </div>
         <div class="col ">
-            <h4>we now accept square!</h4>
+            <h2>we now accept square!</h2>
             <p>
                 By admin | January 7th, 2020|Categories: News
             </p>
@@ -48,6 +48,9 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
     
+    p{
+        font-size: .7rem;
+    }
 </style>

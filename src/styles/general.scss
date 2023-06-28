@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&family=Work+Sans&display=swap');
+
+
 // background-color
 
 .grey{
@@ -22,6 +25,7 @@
     border: 1px solid white;
     text-transform: uppercase;
     padding: 10px 20px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -29,10 +33,27 @@
     border: 1px solid lightgray;
     text-transform: uppercase;
     padding: 10px 20px;
+    font-family: 'Work Sans', sans-serif;
 }
 
+h3,
+h2,
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.2rem;
+}
+
+p{
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 5rem;
+}
 
 h1,
+h2,
 h3,
 h4{
     text-transform: uppercase;
@@ -41,4 +62,29 @@ h4{
 hr{
     width: 100px;
     margin: 0 auto;
+}
+
+
+.line{
+    margin-right: 20px;
+    width: 70px;
+    border: none;
+    border-top: 2px solid white;
+}
+
+
+.my_margin{
+    margin: 150px 100px;
+}
+.article {
+    height: 750px;
+}
+
+.my_mr{
+        margin-right: 20px;
+    }
+
+.my_fs{
+    font-size: 3rem;
+    text-transform: uppercase;  
 }

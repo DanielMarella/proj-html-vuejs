@@ -60,21 +60,6 @@ export default {
 
 <style lang="scss" >
 
-    .my_margin{
-        margin: 150px 150px;
-    }
-    .article {
-        height: 750px;
-    }
-
-    .my_mr{
-            margin-right: 20px;
-        }
-
-    .my_fs{
-        font-size: 4rem;
-        text-transform: uppercase;  
-    }
 
 
     // background-image
