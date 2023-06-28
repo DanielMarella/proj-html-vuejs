@@ -8,13 +8,13 @@
     </div>
     <div class="row">
         <div class="col mb-3">
-            <img src="../assets/img/blog92x-400x458.jpg" alt="">
+            <img src="/img/blog92x-400x458.jpg" alt="">
         </div>
         <div class="col mb-3">
-            <img src="../assets/img/blog72x-400x458.jpg" alt="">
+            <img src="/img/blog72x-400x458.jpg" alt="">
         </div>
         <div class="col mb-3">
-            <img src="../assets/img/blog82x-400x458.jpg" alt="">
+            <img src="/img/blog82x-400x458.jpg" alt="">
         </div>
     </div>
     <div class="row text-center mb-5">
