@@ -67,20 +67,8 @@ export default {
         height: 750px;
     }
 
-    main{
-
-        .col-5{
-            height: 500px;
-        }
-
-        .col-12{
-            height: 800px;
-        }
-        
-        
-    }
     .my_mr{
-            margin-right: 50px;
+            margin-right: 20px;
         }
 
     .my_fs{
